@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+    --font-plus: Plus Jakarta Sans, sans-serif;
+    --font-iconly: 'Iconly';
+    --color-primary: #1772FF;
+    --color-secondary: #232342;
+    --color-danger: #FF4D4F;
+    --color-warning: #FFA940;
+    --color-success: #52C41A;
+    --color-info: #1890FF;
+    --color-light: #F0F2F5;
+    --shadow-sidebar: 6px 0px 32px rgba(0, 0, 0, .1);
+    --shadow-header: 6px 0px 32px rgba(0, 0, 0, .1);
+    --shadow-title: 0px 4px 16px 0px rgba(126, 133, 142, 0.16);
+    --shadow-card: 0px 6px 48px 0px rgba(87, 89, 102, 0.04);
+    --shadow-headerBtn: 0px 8px 32px 0px rgba(0, 88, 223, 0.36);
+    --shadow-priceBtn: 0px 8px 16px 0px rgba(30, 119, 255, 0.32);
+    --shadow-review : 0px 6px 32px 0px rgba(0, 0, 0, 0.04);
+    --shadow-authCard :  0px 8px 40px 0px rgba(23, 31, 70, 0.08);
+}
+
+@layer base {
+    html,
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: var(--font-plus);
+        color: var(--color-secondary);
+        scroll-behavior: smooth;
+        line-height: 1.5;
+    }
+
+    a, 
+    span,
+    small,
+    label {
+        display: inline-block;
+    }
+    a,
+    button {
+        cursor: pointer;
+    }
+
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible {
+        outline: none;
+        background-color: transparent;
+    }
+
+    input::placeholder,
+    select::placeholder,
+    textarea::placeholder {
+        font-size: 1rem;
+        color: #91A0B8;
+    }
+
+    .backdrop{@apply w-screen h-full fixed top-0 left-0 inset-0 bg-black/40 z-[50] invisible opacity-0}
+    .backdrop.active{@apply visible opacity-100}
+    .checkbox:checked { @apply border-none }
+    .checkbox:checked + .check-icon { @apply flex }
+    .checkbox:checked + .checkmark { @apply bg-primary border-primary }
+
+    .custom-checkbox { @apply relative w-4 h-4 cursor-pointer }
+    .custom-checkbox-field { @apply absolute z-10 opacity-0 w-full h-full appearance-none cursor-pointer }
+    .custom-checkbox-icon { @apply absolute top-0 left-0 w-full h-full text-center rounded leading-[14px] text-[10px] border cursor-pointer border-[#d9dee3] text-white }
+    .custom-checkbox-field:checked + .custom-checkbox-icon { @apply bg-primary border-primary }
+    .db-field-checkbox { @apply flex items-center pt-1 w-fit cursor-pointer }
+    .db-field-label { @apply text-[15px] ltr:pl-2 rtl:pr-2 leading-4 capitalize cursor-pointer }
+
+    .field-title { @apply capitalize text-xs block mb-1 }
+    .field-title.required { @apply after:content-['*'] after:leading-none after:text-sm after:ml-1 after:text-danger }
+    .field-control { @apply block w-full h-12 px-4 text-sm rounded-lg border transition-all duration-500 bg-white border-gray-200 hover:border-primary/30 focus-within:border-primary/30 }
+    .field-checkbox { --checkbox-size: 16px; }
+    .field-checkbox { @apply cursor-pointer appearance-none relative inline-flex isolate }
+    .field-checkbox::before { @apply content-[''] w-[var(--checkbox-size)] h-[var(--checkbox-size)] rounded inline-block border border-gray-400 transition-all duration-300 }
+    .field-checkbox::after { @apply content-['✓'] absolute w-[var(--checkbox-size)] h-[var(--checkbox-size)] leading-[var(--checkbox-size)] text-center text-xs inset-0 rounded bg-transparent opacity-0 transition-all duration-300 }
+    .field-checkbox:checked { @apply before:border-primary after:bg-primary after:text-white after:opacity-100 }
+    .field-label { @apply text-xs -mb-0.5 capitalize cursor-pointer whitespace-nowrap }
+    .field-button { @apply font-medium text-center w-full px-6 h-12 leading-12 rounded-full bg-primary text-white capitalize }
+    .field-control[type=file] { @apply relative font-medium pl-0 text-sm transition-all duration-500 before:transition-all before:duration-500 before:content-[''] before:absolute before:top-0 before:left-[115px] before:z-0 before:w-[1px] before:h-full before:bg-gray-200 focus-within:before:bg-primary/30 }
+    .field-control[type=file]::-webkit-file-upload-button,
+    .field-control[type=file]::file-selector-button { @apply h-12 pl-4 pb-1 pr-10 rounded-l-lg font-medium cursor-pointer transition-all duration-500 text-sm bg-white border-none }
+    
+    .db-table-responsive { @apply w-full overflow-auto border border-[#EFF0F6] rounded-3xl}
+    .db-table { @apply table-auto w-full text-left whitespace-nowrap}
+    .db-table.stripe .db-table-body-tr { @apply odd:!bg-[#f9fafb] }
+    .db-table-head { @apply ltr:text-left rtl:text-right border-b border-gray-200 }
+    .db-table-body { @apply ltr:text-left rtl:text-right }
+    .db-table-head-th { @apply p-6 pb-8 first:text-start first:align-bottom text-center leading-tight tracking-[1px] font-bold text-[26px] text-secondary }
+    .db-table-body-tr { @apply border-b border-gray-200 last:border-none }
+    .db-table-body-td { @apply px-4 py-6 text-base font-medium }
+    .db-table-body-td i{@apply !block text-center text-2xl}
+
+    .back-button{@apply invisible after:content-['\2190'] after:visible !text-2xl !font-normal after:border after:border-[#D9DBE9] after:!px-3 after:!pb-2 after:rounded-lg}
+    .next-button{@apply invisible before:content-['\2192'] before:visible !text-2xl !font-normal before:border before:border-[#D9DBE9] before:!px-3 before:!pb-2 before:rounded-lg}
+}
+
+@utility container {
+    width: 100%;
+    max-width: 70rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}

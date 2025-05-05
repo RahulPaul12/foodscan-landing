@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "QR Code Menu",
+        "description": "No apps, no hassle—just scan the QR code to view the menu instantly."
+    },
+    {
+        "id": 2,
+        "title": "POS (Point of Sale)",
+        "description": "All-in-one POS solution—track sales, manage inventory & table tracking."
+    },
+    {
+        "id": 3,
+        "title": "Kitchen Display System",
+        "description": "Digital kitchen display—organized, clear, and built for speed."
+    },
+    {
+        "id": 4,
+        "title": "Customer Display System",
+        "description": "Real-time order updates for a better customer experience."
+    },
+    {
+        "id": 5,
+        "title": "Table Plans & Reservation",
+        "description": "Seamlessly manage reservations and optimize table assignments."
+    },
+    {
+        "id": 6,
+        "title": "Bill Printing",
+        "description": "Accurate, professional receipts—every transaction, every time."
+    },
+    {
+        "id": 7,
+        "title": "Staff Management",
+        "description": "Streamline workforce management—schedule, monitor, and optimize."
+    },
+    {
+        "id": 8,
+        "title": "Reports",
+        "description": "Gain deep business insights with comprehensive reporting tools."
+    },
+    {
+        "id": 9,
+        "title": "Payment Gateway",
+        "description": "Secure, reliable, and hassle-free payment processing for your business."
+    }
+]

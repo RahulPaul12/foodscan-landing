@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah L.",
+        "profile": "/images/customer/customer1.png",
+        "menu": "Bar & Grill",
+        "rating": 5,
+        "comment": "The QR code ordering system has completely transformed our workflow. Orders go straight to the kitchen, reducing errors and saving us so much time during peak hours!"
+    },
+    {
+        "id": 2,
+        "name": "Michael R.",
+        "profile": "/images/customer/customer2.png",
+        "menu": "Best fried Chicken",
+        "rating": 5,
+        "comment": "Since switching to FoodScan, our service speed has drastically improved. Customers love the convenience, and our staff can focus more on hospitality rather than taking orders manually."
+    },
+    {
+        "id": 3,
+        "name": "Jessica T.",
+        "profile": "/images/customer/customer3.png",
+        "menu": "Fine Dining",
+        "rating": 5,
+        "comment": "Our average order value increased by 20% because of smart upselling through the digital menu. Customers love the experience, and we love the results!"
+    },
+    {
+        "id": 1,
+        "name": "Sarah L.",
+        "profile": "/images/customer/customer1.png",
+        "menu": "Bar & Grill",
+        "rating": 4,
+        "comment": "The QR code ordering system has completely transformed our workflow. Orders go straight to the kitchen, reducing errors and saving us so much time during peak hours!"
+    },
+    {
+        "id": 1,
+        "name": "Sarah L.",
+        "profile": "/images/customer/customer2.png",
+        "menu": "Bar & Grill",
+        "rating": 5,
+        "comment": "The QR code ordering system has completely transformed our workflow. Orders go straight to the kitchen, reducing errors and saving us so much time during peak hours!"
+    },
+    {
+        "id": 1,
+        "name": "Sarah L.",
+        "profile": "/images/customer/customer3.png",
+        "menu": "Bar & Grill",
+        "rating": 4,
+        "comment": "The QR code ordering system has completely transformed our workflow. Orders go straight to the kitchen, reducing errors and saving us so much time during peak hours!"
+    }
+]

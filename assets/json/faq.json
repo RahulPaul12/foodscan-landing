@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "question": "Is it easy to build a website?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    },
+    {
+        "id":2,
+        "question": "Can I create a website without knowing how to code?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    },
+    {
+        "id":3,
+        "question": "Is it easy to build a website?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    },
+    {
+        "id":4,
+        "question": "Can I create a website without knowing how to code?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    },
+    {
+        "id":5,
+        "question": "Is it easy to build a website?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    },
+    {
+        "id":6,
+        "question": "Can I create a website without knowing how to code?",
+        "answer":"Absolutely. Funnelliner is for everyone and makes it possible to create a high-quality website without knowing how to code. In the Funnelliner Editor, you can drag and drop any feature you want and customize it to match the look and feel of your site. Of course, if you do know how to code, you can add advanced functionality to your site with Velo."
+    }
+    
+]

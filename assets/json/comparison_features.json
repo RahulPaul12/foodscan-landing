@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Digital menu",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Store profile and business listing",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Custom branding and theming",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Customisable store URL",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Product modifiers and customisations",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Menu categories and groups",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "QR code table ordering",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Pick-up and delivery ordering",
+        "basic" : true,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Order limiting for busy service periods",
+        "basic" : false,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Guest checkout",
+        "basic" : false,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Full control of service and order fees",
+        "basic" : false,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Automated stock inventory controls",
+        "basic" : false,
+        "regular" : true,
+        "premium": true
+    },
+    {
+        "name": "Sales and business performance insights",
+        "basic" : false,
+        "regular" : false,
+        "premium": true
+    },
+    {
+        "name": "DiFacebook Pixel",
+        "basic" : false,
+        "regular" : false,
+        "premium": true
+    },
+    {
+        "name": "Customer marketing database",
+        "basic" : false,
+        "regular" : false,
+        "premium": true
+    }
+]

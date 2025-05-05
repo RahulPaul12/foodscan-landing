@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "image": "/images/feature.png",
+        "title": "Goodbye paper menus, introduce digital menu",
+        "items": [
+            "Frictionless and automated ordering.",
+            "Instant menu updates without printing costs.",
+            "Promote and recommend menu items.",
+            "Full item details: ingredients, variants, allergens, extra.",
+            "Dynamic menus for all times of day"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/images/feature.png",
+        "title": "Experience dining like never before",
+        "items": [
+            "Enjoy a safe and hygienic dining experience.",
+            "Provoke the appetite with stunning menu imagery.",
+            "Order faster and skip the lines.",
+            "Have complete control over the order.",
+            "Ensure order accuracy and track status in real-time."
+        ]
+    },
+    {
+        "id": 3,
+        "image": "/images/feature.png",
+        "title": "Do more, in less time & cost.",
+        "items": [
+            "Automate ordering & payment process.",
+            "Improve communication between staff & diners.",
+            "Reduce need for order staff & labor costs."
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+.pagination-container {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .pagination-container li{
+    width: fit-content;
+  }
+  .active-page{
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color:#232342;
+    border: 1px solid rgb(217, 217, 217);
+    color: #D9DBE9 !important;
+  }
+  .paginate-buttons{
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1772FF;
+  }
+
+  @media only screen and (max-width: 500px)  {
+    .pagination-container{
+        column-gap: 16px;
+        row-gap: 16px;
+    }
+  }
